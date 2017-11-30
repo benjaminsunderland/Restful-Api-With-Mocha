@@ -6,6 +6,13 @@ function getAllContacts() {
   })
 }
 
+function addContact(newContact) {
+  return new Promise((resolve, reject) => {
+    resolve(newContact)
+  })
+}
+
 module.exports = {
-  getAllContacts: getAllContacts
+  getAllContacts: getAllContacts,
+  addContact: addContact
 }
