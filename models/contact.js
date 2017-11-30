@@ -1,7 +1,9 @@
 'use strict'
 
 function getAllContacts() {
-  return []
+  return new Promise((resolve, reject) => {
+    resolve([])
+  })
 }
 
 module.exports = {
